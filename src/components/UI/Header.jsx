@@ -8,12 +8,12 @@ function Header() {
 
   return (
     <nav className="h-20 flex items-center justify-between px-3 md:px-28 bg-white/30 backdrop-blur-lg shadow-md fixed w-full z-50">
-      {/* Logo */}
-      <div className="flex items-center justify-start  md: justify-center ">
+  
+      <div className="flex items-center justify-start  md:justify-center ">
         <h1 className='text-orange-400 text-2xl font-bold'>TiffinBox</h1>
       </div>
 
-      {/* Desktop Nav */}
+     
       <div className="hidden md:flex items-center space-x-6 text-md text-gray-800">
         <ul className="flex space-x-6">
           {['/', '/about','/services', '/menu', '/price', '/contact'].map((path, index) => {
@@ -35,7 +35,6 @@ function Header() {
         </button>
       </div>
 
-      {/* Mobile Menu Button */}
       <div className="md:hidden">
         <button
           onClick={toggleMenu}
@@ -65,7 +64,6 @@ function Header() {
         </button>
       </div>
 
-      {/* Mobile Nav */}
       {isOpen && (
         <div className="md:hidden absolute top-20 left-0 w-full bg-white shadow-md z-40 py-4 px-6 space-y-4 text-lg text-gray-800">
           {['/', '/about','/services', '/menu', '/price', '/contact'].map((path, index) => {
@@ -87,7 +85,7 @@ function Header() {
             );
           })}
           <button className="w-full bg-orange-600 text-white px-4 py-2 rounded-md hover:bg-orange-700 transition">
-           <NavLink to="/signup">Get Started</NavLink> 
+           <NavLink to="/signup">Login</NavLink> 
           </button>
         </div>
       )}
