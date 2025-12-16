@@ -4,10 +4,16 @@ function Menu() {
   return (
     <div>
        <section className="container pt-[100px] mx-auto px-4 flex flex-col gap-9">
-        <div className='flex flex-col gap-3'>
+      
+            <div className='flex flex-col gap-3'>
             <h1 className='font-bold text-4xl'>Today's Menu 😋</h1>
+              <div className='flex justify-between'>
             <p className='text-gray-600'>Freshly prepared and ready to deliver.</p>
+              <div className='bg-green-200 px-2 rounded-lg'>Tuesday Special</div>
+          </div>
+        
         </div>
+      
       
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
 
