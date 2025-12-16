@@ -1,10 +1,8 @@
-import React from "react";
-import About from "./About";
-import Menu from "./Menu";
+import React from 'react'
 
 const Home = () => {
   return (
-   <div className="space-y-4">
+   <div>
      <About/>
      <Menu/>
    </div>

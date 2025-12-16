@@ -9,7 +9,7 @@ function Menu() {
             <h1 className='font-bold text-4xl'>Today's Menu 😋</h1>
               <div className='flex justify-between'>
             <p className='text-gray-600'>Freshly prepared and ready to deliver.</p>
-              <div className='bg-green-200 px-2 py-1 rounded-lg text-sm text-gray-600'>Tuesday Special</div>
+              <div className='bg-green-200 px-2 rounded-lg'>Tuesday Special</div>
           </div>
         
         </div>
