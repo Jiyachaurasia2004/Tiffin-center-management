@@ -4,7 +4,7 @@ import Menu from "./Menu";
 
 const Home = () => {
   return (
-   <div>
+   <div className="space-y-4">
      <About/>
      <Menu/>
    </div>
