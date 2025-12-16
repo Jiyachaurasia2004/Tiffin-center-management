@@ -1,14 +1,11 @@
-import React from "react";
-import About from "./About";
-import Menu from "./Menu";
+import React from 'react'
 
 const Home = () => {
   return (
-   <div>
-     <About/>
-     <Menu/>
-   </div>
-  );
-};
+    <div>
+      hello
+    </div>
+  )
+}
 
 export default Home;
