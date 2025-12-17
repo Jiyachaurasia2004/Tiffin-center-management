@@ -143,13 +143,7 @@ function Profile() {
         />
       </div>
 
-      {/* Security */}
-      <div className="border rounded-lg p-6">
-        <h2 className="font-semibold">Account Security</h2>
-        <button className="mt-4 px-4 py-2 border rounded">
-          Change Password
-        </button>
-      </div>
+    
 
      
     </div>

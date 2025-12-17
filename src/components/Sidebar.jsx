@@ -24,7 +24,7 @@ function Sidebar() {
 
         <li>
           <NavLink
-            to="/calendar"
+            to="weakly"
             className={({ isActive }) =>
               `block px-4 py-2 rounded-lg ${
                 isActive ? "bg-orange-100 text-orange-600" : "hover:bg-gray-100"

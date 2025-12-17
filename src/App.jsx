@@ -11,6 +11,8 @@ import Signup from "./pages/Signup";
 import DashBoard from "./dashborad/DashBoard";
 import Profile from "./dashborad/Profile";
 import Main from "./dashborad/Main";
+import Login from "./pages/Login";
+import Weakly from "./dashborad/Weakly";
 
 const App = () => {
   return (
@@ -24,12 +26,12 @@ const App = () => {
           <Route path="price" element={<Price />} />
           <Route path="contact" element={<Contact />} />
           <Route path="signup" element={<Signup />} />
-
+          <Route path="login" element={<Login />} />
           <Route path="dashboard" element={<DashBoard />}>
-           <Route path="main" element={<Main />} />
+            <Route path="main" element={<Main />} />
             <Route path="profile" element={<Profile />} />
+              <Route path="weakly" element={<Weakly />} />
           </Route>
-
         </Route>
 
         <Route path="*" element={<Error />} />

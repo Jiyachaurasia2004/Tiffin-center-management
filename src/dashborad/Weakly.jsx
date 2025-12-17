@@ -1,6 +1,6 @@
-import React from 'react';
+import React from 'react'
 
-const MenuCard = () => {
+function Weakly() {
     const menuData = [
         {
             day: 'Monday',
@@ -39,9 +39,8 @@ const MenuCard = () => {
             isVeg: true,
         },
     ];
-
-    return (
-        <div className="max-w-7xl mx-auto p-6 bg-gray-50 font-sans">
+  return (
+    <div className="max-w-7xl mx-auto p-6 bg-gray-50 font-sans">
             <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-8">
                 <div>
                     <h2 className="text-3xl font-bold text-gray-900">This Week's Menu</h2>
@@ -80,7 +79,7 @@ const MenuCard = () => {
                 ))}
             </div>
         </div>
-    );
-};
+  )
+}
 
-export default MenuCard;
+export default Weakly

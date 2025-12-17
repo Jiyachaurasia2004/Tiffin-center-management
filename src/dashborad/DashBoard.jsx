@@ -6,7 +6,7 @@ import Main from "./Main";
 
 function DashBoard() {
   return (
-    <div className="flex pt-[70px] min-h-screen bg-gray-100">
+    <div className="flex pt-[70px] min-h-screen bg-gray-50">
       <Sidebar />
        
       <main className="flex-1 p-8">
