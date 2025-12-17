@@ -4,6 +4,7 @@ import Menu from './Menu';
 import Services from './Services';
 import Contact from './Contact';
 import { NavLink } from 'react-router-dom';
+import Price from './Price';
 
 const Home = () => {
   return (
@@ -56,7 +57,7 @@ const Home = () => {
                   4 Roti, 2 Sabzi, Dal, Rice
                 </p>
                 </div>
-               
+
               </div>
               <span className="text-primary font-bold">₹120</span>
             </div>
@@ -70,7 +71,7 @@ const Home = () => {
                   Salad, Sprouts, Soup
                 </p>
                 </div>
-               
+
               </div>
               <span className="text-primary font-bold">₹150</span>
             </div>
@@ -85,7 +86,7 @@ const Home = () => {
         <section className="w-full bg-primary">
         <div className="container mx-auto px-4 py-12">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center text-white">
-            
+
             <div>
               <h3 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold">
                 500+
@@ -128,6 +129,7 @@ const Home = () => {
      <About/>
      <Services/>
      <Menu/>
+     <Price/>
      <Contact/>
    </div>
   );
