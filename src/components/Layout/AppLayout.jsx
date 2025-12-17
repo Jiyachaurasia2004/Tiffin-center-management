@@ -8,9 +8,10 @@ export const AppLayout = () => {
         <Header />
         <div  className="space-y-8">
               <Outlet />
+                <Footer /> 
         </div>
      
-      <Footer /> 
+    
     </div>
       
     </>

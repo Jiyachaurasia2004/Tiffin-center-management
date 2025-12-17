@@ -5,9 +5,9 @@ import { CiLocationOn } from "react-icons/ci";
 import { CiForkAndKnife } from "react-icons/ci";
 export const Footer = () => {
   return (
-    <footer className=" bg-gray-800 w-full rounded-t-2xl pt-10  text-white py-5 px-6">
+    <footer className=" bg-gray-800 w-full rounded-t-2xl pt-[50px]  text-white py-5 px-6">
     
-      <div className="container mx-auto max-w-7xl mx-auto flex flex-col md:flex-row md:justify-between gap-8">
+      <div className="container max-w-7xl mx-auto flex flex-col md:flex-row md:justify-between gap-8">
       
         <div className="md:w-1/3 space-y-3">
         <h1 className="font-bold text-[28px] flex gap-3 items-center"><CiForkAndKnife className="font-bold text-orange-400"/><span>TiffinBox</span></h1>
