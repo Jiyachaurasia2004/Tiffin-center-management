@@ -1,121 +1,42 @@
 import React from 'react'
-
+import img from '../assets/about-img.jpg'
+import img2 from "../assets/about-2.jpg"
+import { FaCheckCircle } from "react-icons/fa";
 function About() {
   return (
      <div className="w-full pt-[70px] bg-white">
 
-      <section className="container  mx-auto px-4 sm:px-6 lg:px-10 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
 
-          <div className="text-center md:text-left">
-            <span className="inline-block bg-orange-100 text-primary px-4 py-2 rounded-full text-sm font-semibold mb-6">
-              100% Hygienic & Homemade
-            </span>
-
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-tight">
-              Ghar Jaisa Khana, <br />
-              <span className="text-primary">Doorstep Delivery.</span>
-            </h2>
-
-            <p className="text-gray-600 mt-6 max-w-lg mx-auto md:mx-0">
-              Delicious, healthy, and affordable tiffin service designed for
-              students and professionals. Manage your subscription easily with
-              our app.
-            </p>
-
-            <div className="flex flex-col sm:flex-row gap-4 mt-8 justify-center md:justify-start">
-              <button className="bg-primary text-white px-7 py-4 rounded-xl font-semibold">
-                Start Your Tril →
-              </button>
-              <button className="border text-orange-600 border-orange-300 text-orange px-8 py-4 rounded-xl font-semibold">
-                View Menu
-              </button>
-            </div>
-
-            <div className="flex justify-center md:justify-start gap-6 mt-6 text-sm text-gray-600">
-              <span>✔ Free Delivery</span>
-              <span>✔ Cancel Anytime</span>
-            </div>
-          </div>
-
-          <div className="bg-orange-50 rounded-3xl p-8 sm:p-8 relative w-full max-w-lg mx-auto">
-            <div className="bg-white rounded-2xl p-5  shadow mb-4 flex justify-between items-center">
-              <div className="flex gap-4">
-                <div className="p-4 bg-orange-100 rounded-full text-xl">🍚 </div>
-                <div className="flex flex-col justify-center">
-                     <h3 className="font-bold">Premium Thali</h3>
-                  <p className="text-sm text-gray-500">
-                  4 Roti, 2 Sabzi, Dal, Rice
-                </p>
-                </div>
-               
-              </div>
-              <span className="text-primary font-bold">₹120</span>
-            </div>
-
-            <div className="bg-white rounded-2xl p-5 shadow flex justify-between items-center">
-               <div className="flex gap-4">
-                <div className="p-4 bg-green-100 rounded-full text-2xl">🍲 </div>
-                <div className="flex flex-col justify-center">
-                     <h3 className="font-bold">Diet Meal</h3>
-                  <p className="text-sm text-gray-500">
-                  Salad, Sprouts, Soup
-                </p>
-                </div>
-               
-              </div>
-              <span className="text-primary font-bold">₹150</span>
-            </div>
-
-            <div className="absolute bottom-4 right-4 bg-white px-4 py-2 rounded-full shadow text-sm font-semibold">
-              🕐 Lunch: 1:00 PM
-            </div>
-          </div>
-
+      <section className='container mx-auto py-10 px-9'>
+        <div className='flex flex-col justify-center items-center font-serif'>
+          <h1 className='text-gray-500'>About Us</h1>
+          <h1 className='md:text-4xl text-2xl'>Learn More <span className='text-orange-600'>About Us</span> </h1>
         </div>
-      </section>
-        <section className="w-full bg-primary">
-        <div className="container mx-auto px-4 py-12">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center text-white">
-            
-            <div>
-              <h3 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold">
-                500+
-              </h3>
-              <p className="mt-2 text-sm sm:text-base opacity-90">
-                Daily Customers
-              </p>
+        <div className='pt-10 flex flex-wrap md:flex gap-5 mx-auto justify-center  '>
+          <div className='md:w-1/2 w-full'>  
+            <img src={img} alt="" width={600}/>
+          </div>
+          <div className='w-full md:w-1/3 flex flex-col gap-4'>
+            <p className='text-gray-600'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div className='flex gap-3'>
+                 <FaCheckCircle className='text-orange-600 text-[23px] flex justify-center' />
+                 <h1>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</h1>
             </div>
-
-            <div>
-              <h3 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold">
-                50k+
-              </h3>
-              <p className="mt-2 text-sm sm:text-base opacity-90">
-                Meals Delivered
-              </p>
+             <div className='flex gap-3'>
+                 <FaCheckCircle className='text-orange-600 text-[23px] flex justify-center' />
+                 <h1>Duis aute irure dolor in reprehenderit in voluptate velit.</h1>
             </div>
-
-            <div>
-              <h3 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold">
-                4.8
-              </h3>
-              <p className="mt-2 text-sm sm:text-base opacity-90">
-                ⭐ Rating
-              </p>
+            <div className='flex gap-3'>
+                 <FaCheckCircle className='text-orange-600 text-[40px] flex justify-center' />
+                 <h1> Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</h1>
             </div>
-
+            <h1>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</h1>
             <div>
-              <h3 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold">
-                15+
-              </h3>
-              <p className="mt-2 text-sm sm:text-base opacity-90">
-                Delivery Partners
-              </p>
-            </div>
-
+          <img src={img2} alt="" width={400}/>
+        </div>
           </div>
         </div>
+       
       </section>
     </div>
   )

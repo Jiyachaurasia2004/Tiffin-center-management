@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Home = () => {
+function Profile() {
   return (
     <div>
-      hello
+      hiii
     </div>
   )
 }
 
-export default Home;
+export default Profile

@@ -8,6 +8,8 @@ import Contact from "./pages/Contact";
 import Price from "./pages/Price";
 import About from "./pages/About";
 import Signup from "./pages/Signup";
+import DashBoard from "./pages/DashBoard";
+import Profile from "./pages/Profile";
 
 
 const router = createBrowserRouter([
@@ -49,7 +51,20 @@ const router = createBrowserRouter([
     path:"signup",
     element: <Signup />,
   },
-    
+  
+{
+  path: "dashboard",
+  element: <DashBoard />,
+  children: [
+    {
+      path: "profile",
+      element: <Profile />,
+    },
+   
+  ],
+  
+}
+
    ],
   },
 ]);
