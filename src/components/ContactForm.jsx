@@ -2,7 +2,7 @@ import React from 'react';
 
 const ContactForm = () => {
   return (
-    <div className="w-full max-w-4xl mx-auto p-6 bg-white shadow-md rounded-sm">
+    <div className="w-full  max-w-4xl mx-auto p-6 bg-white  shadow-lg  rounded-sm">
       <form className="space-y-6">
         <div className="flex flex-col md:flex-row gap-6">
           <div className="w-full md:w-1/2">
@@ -40,7 +40,7 @@ const ContactForm = () => {
         <div className="flex justify-center mt-6">
           <button
             type="button" // content says "Send Message" - usually type="submit" but using type="button" to prevent reload if they drop it in
-            className="bg-[#CE1212] hover:bg-[#b00f0f] text-white font-medium py-3 px-8 rounded-full transition-colors duration-300"
+            className="bg-gradient-to-r from-orange-500 to-red-600 hover:bg-[#b00f0f] text-white font-medium py-3 px-8 rounded-full transition-colors duration-300"
           >
             Send Message
           </button>

@@ -1,9 +1,10 @@
 import React from 'react'
+import ContactForm from '../components/ContactForm'
 
 function Contact() {
   return (
-    <div>
-      <section   className="container pt-[100px] mx-auto px-4 flex flex-col gap-9">
+    <div className='flex flex-col gap-5'>
+      <section   className="container  pt-[100px] mx-auto px-4 flex flex-col gap-9">
          <div className='flex flex-col justify-center items-center font-serif'>
           <h1 className='text-gray-500'>Contact</h1>
           <h1 className='md:text-4xl text-2xl'>Need Help?  <span className='text-orange-600'>Contact Us</span> </h1>
@@ -19,7 +20,7 @@ function Contact() {
     </div>
     
       </section>
-   
+     <ContactForm/>
 
     </div>
   )

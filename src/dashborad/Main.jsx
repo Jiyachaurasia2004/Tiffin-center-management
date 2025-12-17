@@ -1,41 +1,8 @@
 import React from 'react'
-import { CiForkAndKnife } from "react-icons/ci";
-import { NavLink } from 'react-router-dom';
-function DashBoard() {
+
+function Main() {
   return (
-    <div className="flex pt-[70px] min-h-screen bg-gray-100">
-      
- 
-      <aside className="w-64 bg-white shadow-md p-6">
-        <h1 className="text-2xl font-bold text-orange-500 mb-8 flex items-center gap-2">
-          <CiForkAndKnife className='font-bold'/><span>TiffinBox</span> 
-        </h1>
-
-        <nav className="space-y-4">
-          <button className="w-full text-left px-4 py-2 bg-orange-100 text-orange-600 rounded-lg">
-            My Subscription
-          </button>
-
-          <button className="w-full text-left px-4 py-2 hover:bg-gray-100 rounded-lg">
-            Weekly Calendar
-          </button>
-          <NavLink to="/profile">
-          <button className="w-full text-left px-4 py-2 hover:bg-gray-100 rounded-lg">
-            Profile Settings
-          </button>
-          </NavLink>
-        </nav>
-
-        <div className="absolute bottom-6 left-6">
-          <p className="font-semibold">Rahul Sharma</p>
-          <p className="text-sm text-gray-500">Pro Plan Active</p>
-          <button className="text-red-500 mt-2">Sign Out</button>
-        </div>
-      </aside>
-
-      
-      <main className="flex-1 p-8">
-        
+    <div>
         {/* Header */}
         <h2 className="text-2xl font-semibold mb-6">
           Hello, Rahul 👋
@@ -97,10 +64,8 @@ function DashBoard() {
             </div>
           </div>
         </div>
-
-      </main>
     </div>
   )
 }
 
-export default DashBoard
+export default Main
