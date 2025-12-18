@@ -30,7 +30,7 @@ const Home = () => {
             <div className="flex flex-col sm:flex-row gap-4 mt-8 justify-center md:justify-start">
               <NavLink to="/dashboard">
               <button className="bg-primary text-white px-7 py-4 rounded-xl font-semibold">
-                Start Your Tril →
+                Start Your Trial →
               </button>
               </NavLink>
               <NavLink to="/menu">
